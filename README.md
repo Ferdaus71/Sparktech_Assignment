@@ -127,4 +127,91 @@ This project is divided into **5 Steps**, each with clear tasks.
 
 ---
 
-# 📁 Project Structure  
+
+---
+
+# 🚀 How to Run This Project
+
+## ✔️ Run on Google Colab (Recommended)
+
+### **Step 1: Upload dataset**
+from google.colab import files
+
+
+### **Step 2: Install required libraries**
+!pip install tensorflow keras nltk sklearn matplotlib seaborn wordcloud
+
+
+### **Step 3: Run each Step (1–5) cell-by-cell**
+- Start with EDA  
+- Preprocessing  
+- Train model  
+- Evaluate model  
+- Tune model  
+
+### **Step 4: Save the model**
+model.save("final_model.h5")
+
+
+---
+
+# 💻 Run Locally (PC)
+
+### 1. Clone repository:
+git clone https://github.com/Ferdaus71/Sparktech_Assignmen.git
+
+### 2. Install dependencies:
+pip install -r requirements.txt
+
+### 3. Run Google CoLab Notebook:
+
+
+---
+
+# 📊 Results (Expected)
+After full training & tuning:
+
+- Accuracy: **~80–90%**  
+- Precision/Recall: Balanced  
+- Good ROC-AUC  
+- LSTM/GRU performs better than simple ANN  
+- BERT performs best (optional upgrade)
+
+---
+
+# 🧠 Model Used (Summary)
+| Model | Purpose |
+|-------|---------|
+| Logistic Regression | Baseline simple model |
+| SVM | Strong ML baseline |
+| ANN | Neural network baseline |
+| LSTM | Handles sequence & context |
+| GRU | Faster alternative to LSTM |
+| BERT | Deep contextual transformer (optional) |
+
+---
+
+# 🙌 Author  
+**Ferdaus Hassan**  
+AI & Machine Learning Enthusiast  
+Bangladesh
+
+---
+
+# 🏁 Conclusion  
+This project covers **complete end-to-end duplicate question detection** using Machine Learning and Deep Learning.  
+It is suitable for:
+  
+✔️ Internship Task Submission  
+✔️ Job Interview Machine Learning Task  
+✔️ NLP Portfolio Project  
+
+---
+
+# 📞 Need Help?
+If you want **a GitHub repository folder structure**,  
+or a **downloadable .ipynb**,    
+just tell me!
+
+
+
